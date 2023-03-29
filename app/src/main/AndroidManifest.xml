@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a390cc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_baseline_ac_unit_24"
+        android:label="Climate Control"
+        android:roundIcon="@drawable/ic_baseline_ac_unit_24"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.390CC">
+        <activity
+            android:name=".splash"
+            android:exported="true">
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+    </activity>
+        <activity
+            android:name=".home_analytics"
+            android:exported="true"
+            android:parentActivityName=".analytics_options"
+            android:label="Home analytics "/>
+        <activity
+            android:name=".shop_analytics"
+            android:exported="true"
+            android:parentActivityName=".analytics_options"
+            android:label="Store analytics"/>
+        <activity
+            android:name=".analytics_options"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:label="Analytics "/>
+        <activity
+            android:name=".reg"
+            android:exported="true" />
+        <activity
+            android:name=".Settings"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".readwebsite"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Register"
+            android:exported="true"
+            android:parentActivityName=".login" /> <!-- <activity -->
+        <!-- android:name=".ui.login.LoginActivity" -->
+        <!-- android:exported="true" -->
+        <!-- android:label="@string/title_activity_login" /> -->
+        <activity
+            android:name=".control"
+            android:exported="true"
+            android:label="Control Buttons"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".analytics"
+            android:exported="true"
+            android:label="Past Data Analytics"
+            android:parentActivityName=".analytics_options" />
+        <activity
+            android:name=".notify"
+            android:exported="true"
+            android:label="Set Range for Notification "
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".login"
+            android:exported="true"
+            android:parentActivityName=".splash"
+            />
+
+
+        <service android:name=".service" />
+        <service android:name=".notify_service" />
+        <service android:name=".weatherservice" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+    </application>
+
+</manifest>

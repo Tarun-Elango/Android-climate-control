@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "640389930528",
+    "firebase_url": "https://sensordata-85da8-default-rtdb.firebaseio.com",
+    "project_id": "sensordata-85da8",
+    "storage_bucket": "sensordata-85da8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640389930528:android:ce582b474eb40340d3a645",
+        "android_client_info": {
+          "package_name": "com.example.a390cc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640389930528-rdsll21chu0vmiofs5flk2h3p2726si4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUjvUJMQFpkvThIYsVO1g01MkA7sWiUF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640389930528-rdsll21chu0vmiofs5flk2h3p2726si4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
