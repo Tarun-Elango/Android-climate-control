@@ -1,1 +1,1 @@
-# 390-project-climate-control
+Climate-control-android-application
